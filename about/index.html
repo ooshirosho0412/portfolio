@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大城翔のポートフォリオ</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="loading">
+        <div class="orbit-spinner">
+            <div class="orbit"></div>
+            <div class="orbit"></div>
+            <div class="orbit"></div>
+            <div class="orbit"></div>
+          </div>
+    </div>
+    <header>
+        <a href="../index.html" class="brand">Oshiro</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-item">
+                <a href="../index.html">HOME</a>
+                <a href="./index.html">ABOUT</a>
+                <a href="../profile/index.html">PROFILE</a>
+                <a href="../career/index.html">CAREER</a>
+            </div>
+        </div>
+    </header>
+    <div class="about">
+        <h1>ABOUT</h1>
+        <div class="rookie-area">
+            <section> 
+                <img src="../img/yakyuu-preview.png" alt=""/>
+              <div class="r-plf-area">
+                <div class="r-plf-name"> 沖縄国際大学産業情報学部企業<span>大城翔</span> 2020年入学　22歳 </div>
+                <div class="r-plf-katagaki">［出身校］名護高等学校<br>
+                簿記2級　普通自動車免許</div>
+                <h4>生年月日を教えてください<br>
+                </h4>
+                <p>2001年04月12日生まれです。<br>
+                <h4>Web制作を始めたきっかけは？<br>
+                </h4>
+                <p>パソコンでなにかを作りたいなという思いがありパソコンの画面を自由にデザインできる自由性に魅力を感じました。</p>
+                <h4>学校では何をしていますか？<br>
+                </h4>
+                <p>基本的に空いている時間があればWeb制作を触っています。それ以外はサークル活動をしています。<br>
+                </p>
+                <h4>どんなサークルですか？<br>
+                </h4>
+                <p>主にディスカッションやディベートといったことをしています。自分の発言になんとなくではなくしっかり理由を持って話すことを意識して取り組んでいます。</p>
+                <h4>周りからはどんな人と言われますか？<br>
+                </h4>
+                <p>意識は高いとよく言われます。やることに対してしっかり目標を持って毎回挑戦しています。</p>
+                <h4>ストレス解消法はなんですか？<br>
+                </h4>
+                <p>私は景色がとても好きなのでたまに海までドライブしたり山に登って頂上からの景色を見てストレスを解消してます。最近言ったのは夜の浜比嘉島です。</p>
+              </div>
+            </section>
+          </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <h3>大城のポートフォリオ</h3>
+            <P>１％のひらめきのために勉強をする</P>
+            <ul class="socials">
+                <li class="socials-child"><a href="https://twitter.com/taichan_0211"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="socials-child"><a href="https://instagram.com/taichan_0211?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="socials-child"><a href="https://line.me/ti/p/3_gwIHUHzZ"><i class="fa-brands fa-line"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;2022 hope for the future. designed by<span>SHO OSHIRO</span></p>
+        </div>
+       </footer>
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+        menuBtn.addEventListener("click",()=>{
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        })
+        const btns = document.querySelectorAll(".nav-btn");    
+    </script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

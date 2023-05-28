@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="loading">
+        <div class="orbit-spinner">
+            <div class="orbit"></div>
+            <div class="orbit"></div>
+            <div class="orbit"></div>
+            <div class="orbit"></div>
+          </div>
+    </div>
+    <header>
+        <a href="" class="brand">Oshiro</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-item">
+                <a href="../index.html">HOME</a>
+                <a href="../about/index.html">ABOUT</a>
+                <a href="../profile/index.html">PROFILE</a>
+                <a href="./index.html">CAREER</a>
+                
+            </div>
+        </div>
+    </header>
+    <div class="career-card">
+        <h1>CAREER</h1>
+        <div class="l-wrapper_01">
+            <article class="card_01">
+              <div class="card__header_01">
+                <p class="card__title_01">最初のポートフォリオ</p>
+                <figure class="card__thumbnail_01">
+                  <img src="../img/kyu-portforio.png" alt="profile" class="card__image_01">
+              </figure>
+              </div>
+              <div class="card__body_01">
+                <p class="card__text2_01">このHPは私がWeb制作を学んで半年経ったくらいの時に作った最初のポートフォリオです。</p>
+              </div>
+              <div class="card__footer_01">
+                <p class="card__text_01"><a href="http://xs458905.xsrv.jp/" class="button_01 -compact">この記事を詳しく見る</a></p>
+              </div>
+              
+            </article>
+            <article class="card_01">
+                <div class="card__header_01">
+                  <p class="card__title_01">C&V株式会社</p>
+                  <figure class="card__thumbnail_01">
+                    <img src="../img/c&V.png" alt="profile" class="card__image_01">
+                </figure>
+                </div>
+                <div class="card__body_01">
+                  <p class="card__text2_01">私が初めて営業をして制作したHPです。今は1ページですがこれから増やしていく予定です。</p>
+                </div>
+                <div class="card__footer_01">
+                  <p class="card__text_01"><a href="https://candv.site/" class="button_01 -compact">この記事を詳しく見る</a></p>
+                </div>
+                
+              </article>
+              <article class="card_01">
+                <div class="card__header_01">
+                  <p class="card__title_01">chameau株式会社</p>
+                  <figure class="card__thumbnail_01">
+                    <img src="../img/chameu.png" alt="profile" class="card__image_01">
+                </figure>
+                </div>
+                <div class="card__body_01">
+                  <p class="card__text2_01">急遽作ってと言われて2，3日で作ったのですがそれでも自分の中では上手くいったのではと思ってます。これもこれからページを増やしていきます。</p>
+                </div>
+                <div class="card__footer_01">
+                  <p class="card__text_01"><a href="https://chameau0106.jp/" class="button_01 -compact">この記事を詳しく見る</a></p>
+                </div>
+                
+              </article>
+              <article class="card_01">
+                <div class="card__header_01">
+                  <p class="card__title_01">Eプットサークル</p>
+                  <figure class="card__thumbnail_01">
+                    <img src="../img/sa-kuru.png" alt="profile" class="card__image_01">
+                </figure>
+                </div>
+                <div class="card__body_01">
+                  <p class="card__text2_01">これはサークルのHP作りたいなと思って作ったHPです。まだ文章を考え切れていません、、、</p>
+                </div>
+                <div class="card__footer_01">
+                  <p class="card__text_01"><a href="https://ooshirosho0412.github.io/practice-part2/" class="button_01 -compact">この記事を詳しく見る</a></p>
+                </div>
+                
+              </article>
+              <article class="card_01">
+                <div class="card__header_01">
+                  <p class="card__title_01">練習で作ったポートフォリオ</p>
+                  <figure class="card__thumbnail_01">
+                    <img src="../img/practice.png" alt="profile" class="card__image_01">
+                </figure>
+                </div>
+                <div class="card__body_01">
+                  <p class="card__text2_01">youtubeの動画を見て面白い動きだったので真似してみたHPです。</p>
+                </div>
+                <div class="card__footer_01">
+                  <p class="card__text_01"><a href="https://ooshirosho0412.github.io/practice-part3/" class="button_01 -compact">この記事を詳しく見る</a></p>
+                </div>
+                
+              </article>
+          </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <h3>大城のポートフォリオ</h3>
+            <P>１％のひらめきのために勉強をする</P>
+            <ul class="socials">
+                <li class="socials-child"><a href="https://twitter.com/taichan_0211"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="socials-child"><a href="https://instagram.com/taichan_0211?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="socials-child"><a href="https://line.me/ti/p/3_gwIHUHzZ"><i class="fa-brands fa-line"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;2022 hope for the future. designed by<span>SHO OSHIRO</span></p>
+        </div>
+       </footer>
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+        menuBtn.addEventListener("click",()=>{
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        })
+
+        const btns = document.querySelectorAll(".nav-btn");
+
+        
+    </script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
